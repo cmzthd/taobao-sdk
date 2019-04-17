@@ -1,0 +1,22 @@
+{
+  "name": "cmzthd/taobao-sdk",
+  "type": "library",
+  "description": "taobao-sdk",
+  "homepage": "https://github.com/cmzthd/taobao-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ted",
+      "email": "cmzthd@gmail.com",
+      "homepage": "https://github.com/cmzthd",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.3",
+    "ext-curl": "*"
+  },
+  "autoload" : {
+    "psr-4": {"JPush\\": "src/"}
+  }
+}
